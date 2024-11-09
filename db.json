@@ -1,8 +1,79 @@
 {
-    
-    "companies":[],
-    "assets": [],
-    "units":[],
-    "users":[],
-    "workorders":[]
+    "companies": [
+        {
+            "id": 1,
+            "name": ""
+        }
+    ],
+    "assets": [
+        {
+            "id": 1,
+            "assignedUserIds": [
+                1
+            ],
+            "healthHistory": [
+                {
+                    "status": "",
+                    "timestamp": "1731169984"
+                }
+            ],
+            "name": "",
+            "image": "",
+            "healthscore": 5,
+            "status": "",
+            "sensors": [
+                ""
+            ],
+            "metrics": [
+                {
+                    "timestamp": "",
+                    "temperature": 5,
+                    "humidity": 6,
+                    "rpm": 6
+                }
+            ],
+            "specifications": {
+                "maxTemp": 9,
+                "power": 4,
+                "rpm": 2
+            },
+            "unitId": 1,
+            "companyId": 1
+        }
+    ],
+    "units": [
+        {
+            "id": 1,
+            "companyId": 1,
+            "name": "unit1"
+        }
+    ],
+    "users": [
+        {
+            "companyId": 1,
+            "email": "admin@admin.com",
+            "id": 1,
+            "name": "",
+            "unitId": 1
+        }
+    ],
+    "workorders": [
+        {
+            "assetId": 1,
+            "assignedUserIds": [
+                1
+            ],
+            "checklist": [
+                {
+                    "completed": true,
+                    "task": ""
+                }
+            ],
+            "description": "",
+            "id": 1,
+            "priority": "high",
+            "status": "",
+            "title": ""
+        }
+    ]
 }
